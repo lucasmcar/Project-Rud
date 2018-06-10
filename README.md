@@ -8,7 +8,6 @@
   <li>Módulo Ethernet Shield</li>
   <li>Módulo MFRC522</li>
   <li>2 cartões e duas tags RFID</li>
-  <li>Java p/ app desktop</li>
   <li>PHP para sistema web</li>
 </ul>
 
@@ -31,14 +30,14 @@ O RUD, como o nome já diz, é um projeto de sistema em que integrará todos os 
   <li>Atualização rápida em casos de novos documentos como cnh e título de eleitor;</li>
   <li>Um único documento pra tudo;</li>
   <li>Bloqueio remoto, invalidando seu uso;</li>
-  <li>Poderá haver uma redução de taxas de emissão (Em caso de CNH ou segunda via de RG, por ecemplo;</li>
+  <li>Poderá haver uma redução de taxas de emissão (Em caso de CNH ou segunda via de RG, por exemplo;</li>
   <li>Redução do uso de papel;</li>
 </ul>
 
 <h4>Desvantagens</h4>
   <ul>
     <li>Auto valor de investimento;</li>
-    <li>Implementação do sistema aos poucos;</li>
+    <li>Demora para implementar;</li>
   </ul>
   
   <h3>Como está sendo desenvolvido?</h3>
@@ -50,5 +49,5 @@ O RUD, como o nome já diz, é um projeto de sistema em que integrará todos os 
   
   <p>Sendo que o administrador, será identificado pelo cartão e o usuário comum pela tag.
   
-  E cada um terá um acesso a funcionalidades diferentes
+  E cada tipo terá um acesso a funcionalidades diferentes
     
