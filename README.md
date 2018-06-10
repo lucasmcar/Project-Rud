@@ -9,6 +9,7 @@
   <li>Módulo MFRC522</li>
   <li>2 cartões e duas tags RFID</li>
   <li>PHP para sistema web</li>
+  <li>Visual Studio 2017 C# (Windows Forms)</li>
 </ul>
 
 <h3>O que é?</h3>
