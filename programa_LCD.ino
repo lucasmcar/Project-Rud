@@ -1,15 +1,16 @@
-//Programa : RFID - Controle de Acesso leitor RFID
-//Autor : FILIPEFLOP
+//Programa Para Leitura RFID
+//Passar dados para WEB e desktop
+//Lucas Martins de Carvalho
 
 #include <SPI.h>
 #include <MFRC522.h>
-#include <LiquidCrystal.h>
+
 
 #define SS_PIN 8
 #define RST_PIN 9
 MFRC522 mfrc522(SS_PIN, RST_PIN);  // Create MFRC522 instance.
 
-LiquidCrystal lcd(6, 7, 5, 4, 3, 2); 
+
 
 char st[20];
 
@@ -24,6 +25,7 @@ void setup()
 
 void loop() 
 {
+  
   // Look for new cards
   if ( ! mfrc522.PICC_IsNewCardPresent()) 
   {
@@ -45,12 +47,13 @@ void loop()
      conteudo.concat(String(mfrc522.uid.uidByte[i] < 0x10 ? "0" : ""));
      conteudo.concat(String(mfrc522.uid.uidByte[i], HEX));
   }
+  
   Serial.println();
   conteudo.toUpperCase();
   
 
   
-} 
+} //Fim do bloco void loop
 
 
 
