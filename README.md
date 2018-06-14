@@ -37,7 +37,7 @@ O RUD, como o nome já diz, é um projeto de sistema em que integrará todos os 
 
 <h4>Desvantagens</h4>
   <ul>
-    <li>Auto valor de investimento;</li>
+    <li>Alto valor de investimento;</li>
     <li>Demora para implementar;</li>
   </ul>
   
